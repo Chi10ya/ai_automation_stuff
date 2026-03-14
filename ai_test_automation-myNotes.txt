@@ -13,6 +13,8 @@ For QA Engineers, this is a game changer. Instead of manually writing every test
 
 What is Skill (skill.md file)?
 > Prompt BIG - Properly optimized so that you can work on it technology with good practices.
+ For ex: https://github.com/PramodDutta/playwright-advance-e2e/blob/main/SKILL.md
+
 
 
 How to Install Claude Code
