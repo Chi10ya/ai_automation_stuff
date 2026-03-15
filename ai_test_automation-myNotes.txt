@@ -16,10 +16,16 @@ What is Skill (skill.md file)?
  For ex: https://github.com/PramodDutta/playwright-advance-e2e/blob/main/SKILL.md
 
 
-
 How to Install Claude Code
   
   > Go Terminal / CMS / Powershell > Go to your desired folder > and enter the command as  
       in powershell : irm https://claude.ai/install.ps1 | iex
       in win cmd: curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd && del install.cmd
-  
+
+How to add skills into your cluade code directory
+   > Make sure node js is installed. Check for the versions 
+     > node --version
+     > npm --version
+     > npx @qaskills/cli add playwright-e2e
+
+
