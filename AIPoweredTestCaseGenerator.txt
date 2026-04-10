@@ -1,0 +1,25 @@
+🧠 AI-Powered Test Case Generator from Acceptance Criteria using N8N | Azure DevOps #n8n #sdet #qa
+On YT : https://www.youtube.com/watch?v=ZVIY3zHRJy8
+By : SDET Sanjay
+GitHub URL for to get the parameters / values to set  : https://gist.github.com/SanjayPG/8d85723f24852236c14a064557a8737a
+
+Test Case Generator using n8n
+------------------------------
+
+> Read acceptance criteria from azure devops
+> Automatically generate multiple test cases, including
+  > Positive Scenarios
+  > Negative Scenarios
+  > Edge Cases
+> Push the generated test cases back to azure devops
+> Link all the test cases to their respective PBI (Product Backlog Item)
+
+Note: For to communicate n8n to Azure devops, the token PAT (Personal Access Token) has to be created for integrate / communicate.
+  Steps
+  1: Go to Axure DevOps
+  2: Login > Navigate to your My Profile > Select ... dots More options > User Settings
+  3: Select "Personal Access token > Click on New Token
+  4: Enter name as "test cases from ac" > Scope = Full Accesss > Click on Create.
+  5: Copy the token (this token has to be used in n8n)
+  6: Open n8n > Goto Dashboard > Click on "Create Workflow" > Click on "Add First Step" > Select "Trigger Manually"
+  7: 
