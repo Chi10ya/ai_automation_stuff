@@ -1,0 +1,29 @@
+AI Video Mastery Create Viral Reels & YouTube Shorts ("No Skills Needed") tutorials by Mr. DURGA Sir
+on YT https://www.youtube.com/watch?v=lwfZ7-Lv2ws&list=PLd3UqWTnYXOmeQ3GmNJFQ4ksbQpVwAFfQ&index=5
+by Durga Software Solutions
+
+
+  Tools 
+    1: ChatGPT ==> To generate lyrics / content generation
+    2: Suno ==> For to generate the lyrics into Audio songs
+    3: Gemini / Google Flow ==> For to generate the images
+    4: Gemini / Google Flow ==> For to generate the Video
+    5: Filmora ==> For to edit the generated video
+
+      1: In Chat GPT enter the prompt as " " for to generate the lyric and also you can ask for the suno-Styles 
+
+      2: Go to Suno > Paste the generated lyric " " and enter the Styles and the Title of the song. And, upon generating it download the file.
+
+      3: For to generate an image enter the prompt in Chat GPT as "I want character consistency for 1:30 secs video song for the following one " "generate scene wise image and video prompts.
+
+      4: Go to Gemini for to generate the image for the above generated scene wise and upon generation download the image
+
+      5: Now go to Google Flow and upload the downloaded image for to generate simillar kind of image as a reference for to generate the rest of the images for the scenes.
+
+      6: 
+
+Restoration Timelapse :
+      > Open Chat GPT "chatgpt.com"
+      > Select :Explore GPTs"
+      > Search for "restoration timelapse" > Start Chat
+      
