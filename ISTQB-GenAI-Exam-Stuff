@@ -1,0 +1,23 @@
+Master Generative AI testing concepts and confidently prepare for the ISTQB Generative AI (CT‑GenAI) exam on Udemy By Manish Verma
+
+
+
+Section 4 : Prompt Engineering for effective software testing
+
+18.2: Prompt Engineering for effective software testing
+
+19.21 : Effective Prompt Development
+  > Effective prompt design ensures that GenAI tools perform sotware test tasks accuratelya nd efficiently
+  > Effective prompts help testers to obtain useful results from LLMs
+    > Structured prompts include different components
+      > Different components contrubute to clarity & precision
+      > Each of these components contrubutes to the clarity and precision of a prompt that effectively communicates requirements and expectations to LLMs
+    > Different prompt engineering techniques
+      > Prompt chaining (The output of one prompt is used as the input for the next, creating a sequential flow of information and reasoning
+      > Few-shot prompting (Guide with examples)
+      > Meta prompting (instruct reassoning / testing approach)
+    > Combined Approach
+      > Structured prompts and techniques provide optimal results
+      > It addresses complex testing challenges
+      > Improves accuracy, efficiency, reliability
+
