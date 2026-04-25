@@ -21,3 +21,76 @@ Section 4 : Prompt Engineering for effective software testing
       > It addresses complex testing challenges
       > Improves accuracy, efficiency, reliability
 
+20: Hands on | AI Prompting Basics in Chat GPT
+
+      Ex: Write a poem for the little girl who get really happy in rain and starts dancing when it rains
+      Ex: I am working in software testing
+
+21: 2.1.1 Structure of Prompts for Generative AI in Software testing
+      Why structure of prompts is important in GenAI
+      > Gen AI ouputs depend heavily on how prompts are designed
+      > A well - structure prompt ensures accuracy, relevance and quality in testware generation
+      > A structured promopt for sotware testing typically includes six components
+          
+RCIICO
+          > Role
+          > Context 
+          > Intruction
+          > Input Data
+          > Contraints
+          > Output format
+
+      > Prompts are like blueprint for GenAI which guides the AI's response
+
+    > ROLE : 
+        > Defines the perspective or persona that the GenAI model should take when generating a response (eg. tester, test manager, automation engineer)
+        > Shapes tome and responsibility
+        Ex: Act as a functional tester and design functional test testcases
+
+    > CONTEXT :
+        > Provides the background information that the GenAI model nees to determine the test conditions (test object, functionallity, environment)
+        Ex: We are testing the login module of a banking app
+
+    > INSTRUCTION :
+        > Clear, concise directives for the task
+        Ex: Generate boundary test cases for username length betweeen 5 to 15 characters
+
+    > INPUT DATA :
+        > Includes user stories, acceptance criteria, screenshots, code or existing test cases
+        > It helps GenAI to generate context-aware results
+        Ex: Provding acceptance criteria : "System must lock account after 3 failed login attempts
+
+    > CONSTRAINTS :
+        > Define restrictions or special considerations
+        Ex: Generate test cases only for functional testing, exclude performance scenarios
+
+    > OUTPUT FORMAT :
+        > Specifies expected structure or style of response
+        Ex: Provide test cases in Gherkin format (Give - When - Then)
+
+22: Hands on | Observe and Analyze Prompt Components
+
+    1: Full Structure Prompt (All Six components)
+        I am a junior software tester.         --> ROLE
+        I am testing the eCommerce application login page. --> CONTEXT
+        Generate test cases for login functionality.      --> INSTRUCTION   
+        Login has username and password field with password field requiring at least 8 characters.    --> INPUT DATA
+        Do not include performance or security tests.       --> CONSTRAINTS
+        Write the testcases in Gherkin syntax        --> OUTPUT FORMAT
+
+    2: Minimal Prompt (Missing Ccomponents)
+        Generate test cases for login functionality
+
+    3: Prompt with Role + Instruction
+        I am a junior software tester.         --> ROLE
+        Generate test cases for login functionality.      --> INSTRUCTION 
+
+    4: Prompt with Role + Context + Instruction
+        I am a junior software tester.         --> ROLE
+        I am testing the eCommerce application login page. --> CONTEXT
+        Generate test cases for login functionality.      --> INSTRUCTION 
+        
+        
+
+
+
