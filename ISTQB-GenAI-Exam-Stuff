@@ -113,16 +113,23 @@ RCIICO
 
 23: Hands on | Observing and discussing prompt chaining, Few shot prompting
 
-       Prompt Chaining: 
+       1: Prompt Chaining: 
 
         First Prompt : I am a software tester. List the functional areas to be tested in a login feature
         Second Prompt : I am software tester. Refer to functional areas identified in previous prompt. Now generate functional test cases for each functional area. The output format should be single liner scenarios.
 
-      Few Shot Prmpting :
+      2: Few Shot Prmpting :
 
         I am a software tester and I am testing the login functionality. Generate test cases for login feature in one liner.
         Examples:
             TC001: "Login with Empty Username"
             TC002: "Login with Empty Password"
       
+      3: Meta Prompting:
 
+        I am a software tester. Generate a structured prompt that will produce functional test cases for a shopping cart feature. The structured prompt must include
+        ROLE, CONTEXT, INSTRUCTION, INPUT DATA, CONSTRAINTS and OUTPUT format.
+
+24: Hands on | Identifying Prompt Engineering Techniques in Given Examples
+
+      
