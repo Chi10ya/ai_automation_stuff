@@ -90,7 +90,39 @@ RCIICO
         I am testing the eCommerce application login page. --> CONTEXT
         Generate test cases for login functionality.      --> INSTRUCTION 
         
-        
+    5:  Prompt with Role + Context + Instruction + Input Data
+        I am a junior software tester.         --> ROLE
+        I am testing the eCommerce application login page. --> CONTEXT
+        Generate test cases for login functionality.      --> INSTRUCTION   
+        Login has username and password field with password field requiring at least 8 characters.    --> INPUT DATA
 
+    6:  Prompt with Role + Context + Instruction + Input Data + Constraints
+        I am a junior software tester.         --> ROLE
+        I am testing the eCommerce application login page. --> CONTEXT
+        Generate test cases for login functionality.      --> INSTRUCTION   
+        Login has username and password field with password field requiring at least 8 characters.    --> INPUT DATA
+        Do not include performance or security tests.       --> CONSTRAINTS
 
+    7: Prompt with Role + Context + Instruction + Input Data + Constraints + Output Format
+        I am a junior software tester.         --> ROLE
+        I am testing the eCommerce application login page. --> CONTEXT
+        Generate test cases for login functionality.      --> INSTRUCTION   
+        Login has username and password field with password field requiring at least 8 characters.    --> INPUT DATA
+        Do not include performance or security tests.       --> CONSTRAINTS
+        Write the testcases in Gherkin syntax        --> OUTPUT FORMAT
+
+23: Hands on | Observing and discussing prompt chaining, Few shot prompting
+
+       Prompt Chaining: 
+
+        First Prompt : I am a software tester. List the functional areas to be tested in a login feature
+        Second Prompt : I am software tester. Refer to functional areas identified in previous prompt. Now generate functional test cases for each functional area. The output format should be single liner scenarios.
+
+      Few Shot Prmpting :
+
+        I am a software tester and I am testing the login functionality. Generate test cases for login feature in one liner.
+        Examples:
+            TC001: "Login with Empty Username"
+            TC002: "Login with Empty Password"
+      
 
