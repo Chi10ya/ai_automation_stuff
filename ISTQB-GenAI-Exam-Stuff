@@ -68,6 +68,25 @@ RCIICO
         > Specifies expected structure or style of response
         Ex: Provide test cases in Gherkin format (Give - When - Then)
 
+
+>>>> From PMP - PMI >>> The following is from PMP (PMI) : Talking to AI : Prompt Engineering for Project Managers
+
+    1: RTF : (ROLE, TASK, FORMAT) : Use this for Brevity, Directness, Straightforward, Efficient, Easy to use in large contexts
+    2: CREATE : (CHARACTER, REQUEST, EXAMPLES, ADJUSTMENTS, TYPES OF OUTPUT, EVALUATION CRITERIA) : Use this for Comprehensive, Precise, Manges very complex tasks, Deep level of analysis, More specific results.  
+
+        1.1: ROLE : You are an experienced healthcare project manager with experience in facility renovations and construction management
+        1.2: TASK : Your task is to identify potential risks in this renovation project to transform a designated wing into a functional outpatient clinic considering
+                    construction delays, budget overruns, patient safety and hospital operations
+        1.3: FORMAT: Create a rish register with the projects possible risks in table format.
+
+        2.1: CHARACTER : You are detail-oriented healthcare project manager with 10 years of experience in facility rennovations and construction managemen. You take pride in your work.
+        2.2: REQUEST : Identify potential risks in the renovation project to transform a designated wing into a functional outpatient clinic
+        2.3: EXAMPLES : I've uploaded tables, these are other projects risk registers, identifying risks related to : constructiona delays, budget, overruns, patient safety, hospital operations during construction and other potential major risks
+        2.5: ADJUSTMENTS: Ensure compliance with healthcare regulations and safety standards. Consider the impact on existing hospital operations and patient care
+        2.6: TYPES OF OUTPUT : Format the risk register as a table
+        2.7: EVALUATION CRITERIA: 
+
+
 22: Hands on | Observe and Analyze Prompt Components
 
     1: Full Structure Prompt (All Six components)
@@ -134,5 +153,102 @@ RCIICO
 
 25: Hands on | 6 Core Elements of a Good Prompt
 
-      
-      
+    Core Components of Good Prompt.
+
+      ROLE : I am software tester with 1 year experience
+      CONTEXT : To explaing software testing to freshers, the tome should be encouraging and professional.
+      INSTRUCTION : Suggest top 5 topics
+      EXAMPLES:
+          a: What is Software Testing
+            i: Software testing is the process of evaluating a system to ensure it meets requirements
+            ii: It helps identify bugs or issues before software reaches users
+            iii: Testing improves product quality, reliability and user statisfaction
+            iv: It's a critical part of the software development lifecycle (SDLC)
+            v. Every tester plays a key role in building trust in technology.
+      CONSTRAINTS: The content should not contain any advanced software testing topics
+      OUTPUT FORMAT : Create a bullet list for each topic suitable for presentation 
+
+26: Core Prompting Techniques for software testing
+
+    1: Prompt Chaining: (Chain-of-thought)
+          > Involves breaking a complex task into a series of intermediate steps (multiple prompts)
+          > Each step's output is checked/refined before moving forward
+          > This approach builds accuracy as each response informs the next prompt
+          > Ideal for complicated test processes
+          > It also allows for dynamic interactions in test processes
+          Example:
+            > Step 1: Ask LLM to generate test cases for login
+            > Step 2: Refine cases to include edge scenarios (Ex : Empty password, SQL injection)
+            > Step 3: Validate outputs against requirements and refine again if needed.
+     
+    2: Zero Shot Prmpting
+         > Zero-Shot prompting relies entirely on the LLM's pre-existing knowledge
+         > No examples are provided in the prompt
+         > It is quick and simple prompting but may lack precision
+         > Example:
+              > Prompt : "Generate boundary test cases for the age field"
+              > LLM users its own knowledge to produce cases (ex: negative values, large numbers, valid ranges)
+
+    3: One Shot prompting
+        > In One-SHot prompting you provide one example to demonstrate the desired outcome
+        > It helps in guiding the LLM towards the expected format or behaviour
+        > Example: 
+            > Prompt: Generate boundary test cases in tabular fomrat for the age field with range 1 and 110. Ex: TCID, Age Value, Expected Result   TC-XX, -1, INVALID
+            > LLm then products additional cases following the same style
+
+    4: Few Shot prompting
+        > In Few shot prompting you provide multiple examples in the prompt
+        > It reinforces the expected behaviour and format
+        > It helps the LLM to generalize more effectively
+        > Example:
+            > Prompt : Generate boundary test cases for the aga field with range 1 and 110. Ex: Age = -1 in Invalid, Age = 0 is Valid, Age = 120 is Invalid
+            > LLM continues with consistent outputs (eg: Age = 25 is valid, Age = 130 is Invalid)
+
+    5: Meta Prompting
+        > In Meta prompting LLM helps generate or refine its own prompts
+        > It follows interative cycle
+            > If tester is unsure of prompt, in that case tester evaluates and LLM improves prompt, this cycle is repeated until best prompt is acchieved.
+        > It reduces manual effort in designing effective prompts
+            Ex: 
+              > Tester: Suggest a better way to phrase this test prompt for login security
+              > LLM: Refines prompt to include password complexity, lockout rules, error handling
+              > Tester: Accepts or adjusts until desired outcome
+        > Benefits of Meta Prompting
+              > It enccourages collaborating (paring) between tester & AI
+              >  It enhances productivity, learning and creativity
+              > It is useful in pair programming / pain testing contexts
+  
+27: Hands on | Top Prompting Techniques
+
+      1: Zero Shot Prompting : Direct instruction with no examples. Great for testing general capability
+      2: One Shot Prmpting : One example is provided to guide the model's response format or tone
+      3: Few Shot Prompting : Multiple examples are given to help the model learn a pattern or structure
+      4: Chain of thought : Encourages the model to reason step-by-step before answering. Userful for complex tasks
+      5: Compound prompting : Combines multiple prompt types for layered reasoning or multi-step tasks.
+
+28: Hands On | Zero shot prompting
+29: Hands On | One shot prompting
+30:  Hands On | Few shot prompting
+31:  Hands On | Chain of Thought prompting 
+
+>>> From PMP - PMI >>> The following is from PMP (PMI) : Prompting Patterns
+
+  1: Chain of thought
+      > A complex problem dividing into Subtasks
+  2: Chain of Feedback
+      > Its an extends the Chain of Thought. An iterative feedback of Subtasks 
+  3: Tree of thought
+      > Multiple pathways of thought / solutions simultaneously
+  4: Persona Pattern
+      > Your are a risk analayst (or) You are a project manager
+  5: Flipped Interation
+      > Roles are reversed AI asks questions to the user for to extract detailed and specific info 
+  6: Question Refinement
+      > Tells the LLM to suggest a better question then what we originally asked it and then uses the answer to that question to provide a beteer overall response.
+  7: Self consistency
+  8: ReAct
+      > Allows the AI to dynamically adjust its responses by integrating new data, making it ideal for aligning with continuously changing project objectives
+  9: Scenario Exploration
+  10: Risk Assessment Matrix
+  11: Cognitive Verifier
+
