@@ -1,0 +1,39 @@
+
+2026-Using Gen AI & AI Agent in Software Automation Testing on Udemy By Karthik
+
+
+Section 4 : Manual Testing with the power of Gen AI
+
+11: Introduction : 
+12: Creating Manual Test scenarios with large language model
+
+    > Open ChatGPT > Enter the prompt as "Write manual test scenarios for the page http://eaapp.somee.com
+    > Open the webpage > copy the page soure code
+    > Enter the prompt as "Can you analyze this page source and write me all the possible manual test scenarios and make sure that you re writing the scenarios like an experiences QA engineers"
+
+13: Creating manual test data generation with Gen AI
+
+    > Prompt as : Can you please include test data for the above test scenarios
+    
+
+14: Using local LLMs to create Manual Test cases and test data
+
+    > Download and Open GPT4ALL and enter the prompt.
+
+15: Generating BDD Scenarios for Automated Test Engineers
+
+    > Prompt : Write all the above scenarios in the BDD Gherkin format.
+
+16: Test Requirement / Product Requirement Analysis with Grounded models
+
+    ** NotebookLM
+
+    >  Open NotebookLM (a product of google) > Upload the project / requirement specification document > Now, enter your prompts / questions for to get a response
+
+17: Query test requirement from various sources wtih offline grounded models
+
+    ** Use GPT4ALL > LocalDocs section for to upload the project / requirement specification document.
+
+
+
+
