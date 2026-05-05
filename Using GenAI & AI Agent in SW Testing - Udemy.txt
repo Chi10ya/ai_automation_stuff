@@ -34,6 +34,49 @@ Section 4 : Manual Testing with the power of Gen AI
 
     ** Use GPT4ALL > LocalDocs section for to upload the project / requirement specification document.
 
+18: Understanding RAG (Retrieval Augumented Generation)
 
+        RAG is an advanced technique in the realm of large language models (LLMS) that enhances their capabilities by comning a retrieval system with a generative model
 
+        Retrieval - External source of knowledge and grounded source of knowledge (Statice) are fetched for information
+        Augmented - Both external and static knowledge are combined to create an information
+        Generation = The learned knowledge is then generated with accuracy and gives context - aware responses.
+   
+    ** Both NotebookLM and LocalDB feature of GPT4ALL are an RAG tool
+
+        What are the other usecases of RAG
+            > As RAG generated dta based on the context and are precise, it well be very helpful to perform operation in Testing such as
+                    > Test Plan generation (in our case)
+                    > Test case generation (as we have the requirement)
+                    > Sometime test estimation (with historical source of information)
+
+19: Applying RAG feature to get context-aware and Precise Test Plan & Test Case
+
+        > Open NoteBookLM > Upload the requirement documents > and enter the prompt as "Can you generate the Test Plan for the uploaded requirement"
+
+        
+Section 5 : Writing Automated UI Testing with Gen AI
+
+    20: Introduction
+        How to perform automated UI testing with the help of Gen AI
+        > Automated UI testing can be done with the help of Gen AI as easily as how it helped perform Manual Testing
+        > LLMs understand popular Automation testing tools like
+            > Cypress
+            > Playwright
+            > Selenium
+            > TestCafe
+        > LLMs help refactor the code as well
+
+        > AI Poweered development tools like
+            > GitHub Copilot
+            > Tabnine
+            > Amazon CodeWhisper
+            > Google Project IDX
+        > These tools helps to refactor, explain, document and even write Unit test codes.
+
+    21: Generating Automation Test Code and Refactoring them
+
+        > Open 
+    
+        
 
