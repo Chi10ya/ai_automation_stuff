@@ -1,5 +1,123 @@
 Master Generative AI testing concepts and confidently prepare for the ISTQB Generative AI (CT‑GenAI) exam on Udemy By Manish Verma
+----------------------------------------------------------------------------------------------------------------------------------
+Section 1 : Introduction
 
+1,1 Introduction to ISTQB Generative AI certification
+2: Who can take the course
+3: Career Path for testers
+4: Business Outcomes
+5: Examinable Learning Objectives
+
+Section 2: Introductiion to Generative AI for Software testing
+  6.2 : Introuducation to Generative AI for Software Testing
+  7.1.1:  Generative AI foundation and key concents
+    Generative AI is a branch of AI that creates human-like outputs which include:
+      Text:  Writing essays, poems, summaries, answering questions
+      Images : Creating designs, photos, mockups
+      Code: Generating scripts, code snippets, analyzing existing code to provide feedback
+    LLM (Large Language Models)
+      LLMs are type of GenAI models pre-trained on large textual datasets.
+        > LLMs can understand context in user prompts
+        > Generative relavant, coherent responses
+      For Example:
+        > Promot to LLM = " Write test cases for Login page"
+        > LLM Output - A list of positive and negative test cases
+
+    Key Concepts in GenAI
+
+      Tokenization
+          > Breaking test into samaller units (tokens) for processing
+          > For example : The tokens for text "Generative AI in testing: could be ["Gener" "ative", "AI", "in", "Testing"]
+          > A helpful rule of thumb is that one token generally corresponds to ~ 4 characters of text for common English text
+
+        Context Window:
+          > The context window (or "context length") of a LLM is the amount of text, in tokens, that the model can consider or "remember" at any one time.
+          > For exampele, a model may only "remember" the last 2-3 paragraphs of conversation
+
+        Multimodal Models
+          > Can handle multiple data types (text, images, video etc)
+          > For example, if you upload a bug screenshot and description for bug the AI can suggest possible fixes.
+
+     Generative AI in software testing
+        Few Practical Applications
+            > Generating test cases, test plans, test scripts etc
+            > Identifying potential defects
+            > Summarizing large requirements document
+            > Analyzing defect patterns
+            > Creating synthetic test data
+            > Supporting documentation generation
+
+        Example
+            Input - "Generate test data for an e-commerce checkout flow"
+            Output - AI generates realistic user profiles, address, payment details
+
+    8.1.1.1 : AI Spectrum:  Symbolic AI, Classical Machine & Deep Learning and Gen AI
+
+          > Artificial AI (AI) is a broad field that encompasses differnt types of technologies, each with it own uniqur way of solving problems
+          > Some AI technologies discussed in Gen AI ISTQB syllabus are :
+            > Symbolic AI
+            > Classical Machine Learning
+            > Deep Learning
+            > Generative AI (Gen AI)
+
+          Symbolic AI
+            > Rule-based system which mimicks human decision-making
+            > Represents knowledge using symbols and logical reles.
+            > For example : Exprert systems that follow "if-then" rules"
+
+        Classical Machine Leearning
+            > It is data driven approach which requires
+                > Data preparation
+                > Feature selection
+                > Model training
+            > Applications
+                > Defect categorization
+                > Predicting software problems
+
+          Deep learning
+            > Users neural networks to learn features automatically
+            > Finds patterns in large, complex datasets (images, video, audio, text)
+            > Reduces need for manual feature definition
+            > It sitll requires human input for
+                > Data annotation
+                > Model tuning
+                > Result validation
+
+           Generative AI (Gen AI)
+            > Uses deep learninng to create new content
+                Text
+                Images
+                Videos
+                Code
+            > Powered by LLM (Large Language Models)
+            > Can simulate reasoning and problem solving
+
+    9.1.1.2 Basics of Generative AI and LLMs
+
+      > Large Language Models (LLMs)
+          > Based on generative pre-trained transformer deep learning model
+          > Trained on huge datasets (books, articles, websites)
+          > Handle language nuances, genrative coherent content
+      > Small Language Models (SLMs)
+          > Compact models with fewer parameters
+          > SLMs are lightweight and faster
+          > SLMas are good for focused tasks (eg. mobile chatbots)
+        Examples:
+            > LLMs like ChatGPT can write essays
+            > SLMs can quickly answer FAQs
+      
+      How LLMs Process and Generate Contrent
+        > Tokenization :
+              Breks text into smaller units (characters, words, sub-words)
+              For example : tokens for text "AI helps testing" could be ["AI", "helps", "testing"]
+        > Embeddings :
+              Embeddings are numerical representations of tokens that encode theri semantic, syntactic and contextual relationships in  a format suitable for precessing by genrative AI models
+              For example, the words "Bug" and "DefecT" would have embeddings close together so that model knows they're releated
+        > Transformer Architecure
+              LLMs, utilize a neural netowkr architecture knows as the transformer model
+              Transformer models excel in language tasks by processing the context of extensive text sequences and learning how tokes relate to each other
+              It predicts next token and generates plausible text (Which might note always be correct)
+        
 
 
 Section 4 : Prompt Engineering for effective software testing
