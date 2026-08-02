@@ -29,3 +29,24 @@ How to add skills into your cluade code directory
      > npx @qaskills/cli add playwright-e2e
 
 
+
+=========================================================================================
+Build Custom Automation Skills for Playwright & Selenium
+On YT : https://www.youtube.com/watch?v=zh4Y_sJClQo
+By The Testing Academy
+==========================================================================================
+
+Prompt is a normal instruction which gives to the LLM
+ Disadvantage of Prompt
+   > Hallucination
+   > Context is missed
+   > Not easy to maintain
+   > 
+
+Skill.md
+   > Reusable in nature
+   > Output can be structured
+   > Rules & Regulations
+   > Constraints
+   > Can share the file
+   
