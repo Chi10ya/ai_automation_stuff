@@ -43,10 +43,40 @@ Prompt is a normal instruction which gives to the LLM
    > Not easy to maintain
    > 
 
+Refer URL: https://app.thetestingacademy.com/ai/skill-test-plan
+
 Skill.md
    > Reusable in nature
    > Output can be structured
    > Rules & Regulations
    > Constraints
    > Can share the file
+
+Folder Structure : <your project name : "AGENTSKILLS")
+
+Folder : stlc_manual_testing
+SubFolders :
+   > 01_jira_requirement-analyzer
+   > 02_testplan-creator-via-jira
+   > 03_test-design
+   > 04_test-case-development
+   > 05_test-execution
+   > 06_defect-management
+   > 07_test-clousre
+
+Folder : 
+
+Structure of a SKILL.md
+  > name
+  > description
+  > license
+  > metadata
+  > Title + Information
+  > When to use
+  > Workflow (Step by Step) - Fetch the JIRA and create the test plan
+  > Output shape
+  > Guardrails + Safety
+  > When NOT to use / Don'ts
+  > Does
+  
    
