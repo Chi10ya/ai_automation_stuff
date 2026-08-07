@@ -1,0 +1,72 @@
+Complete Agentic AI Course Plan | Complete Learning Path
+On YT : https://www.youtube.com/watch?v=8pE1krNmqCo&list=PLkz_y24mlSJZ9SFlc9O4Q4Grli5SQDbrB&index=3
+By DSwithBappy : (Total : 36 Videos)
+======================================================================================================
+
+Phase 1 - Introduction to Agentic AI
+  Goal 
+    > What are AI Agents
+    > Why Agentic AI matters
+
+Phase 2 - Asynchronous Programming & Pydantic
+  Goal
+    > Prepare beginners for Agent development
+
+Phase 3 - LangChain Fundamentals
+    > Introduce AI Orchestration basics
+
+Phase 4 - LangGraph (CORE SECTION)
+   > Teach production-grade agent workflows
+
+Phase 5 - Crew AI
+   > Teach role-based collaborative AI agent systems
+
+Phase 6 - Mircosoft AutoGen
+  > Teach autonomous multi agent communication
+
+Phase 7 - AI automation with n8n
+  > Teach workflow automation + No-Code AI Agents Development
+
+Phase 8 - MCP / Model Context Protocol
+  > Teach next-generation AI tool integration
+
+Phase 9 - Memory, planning & Autonomous Systems
+  > Build true autonomous AI systems
+
+Phase 10 - AI Safety & Evaluation
+  > Teach production reliability
+      > Guardrails & Safety
+        > Prompt injection
+        > Security
+        > Tool restrictions
+        > AI safety patterns
+
+  Phase 11 - Deployment & Production Engineering
+      > Deploy scalable AI systems
+
+  Phase 12 - Final Projects
+      > Build portfolio-level systems
+
+
+Course Requirements
+    > Advanced Python : (Learn from here : https://www.youtube.com/playlist?list=PLkz_y24mlSJYjz1nmtzROM93bpzkMWeF1 )
+    > Basics of Generative AI : (Learn from here :  
+
+  Software Requirements
+    > Anaconda
+    > VS Code
+    > Git & GitHub
+    > Docker Desktop
+    > Postman
+
+  Accounts needed
+    > OpenAI
+    > GitHub
+    > Hugging Face
+    > Pinecone
+    > Google AI Studio
+    > Anthropic (optional)
+
+
+    
+
