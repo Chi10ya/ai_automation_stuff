@@ -1,3 +1,8 @@
+
+AGENTIC AI & MULTI AGENTS - Course
+-----------------------------------------------
+
+
 Complete Agentic AI Course Plan | Complete Learning Path
 On YT : https://www.youtube.com/watch?v=8pE1krNmqCo&list=PLkz_y24mlSJZ9SFlc9O4Q4Grli5SQDbrB&index=3
 By DSwithBappy : (Total : 36 Videos)
@@ -68,5 +73,12 @@ Course Requirements
     > Anthropic (optional)
 
 
-    
+====================================================================================================================
+Agentic AI Full Course with LangGraph: Build AI Agents & Automate Workflows (Zero to Hero) - Part 1
+On YT : https://www.youtube.com/watch?v=4RtKGasvNC0&list=PLRdOE53sFnOE&index=1
+By DSwithBappy : 
+====================================================================================================================
+
+
+
 
